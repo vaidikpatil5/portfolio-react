@@ -51,7 +51,7 @@ const Services = () => {
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="public/16521.jpg" alt="" />
+          <img src="/16521.jpg" alt="" />
           <h1>
             Bring your <motion.b whileHover={{color:"orange"}}>idea</motion.b> 
           </h1>
@@ -61,7 +61,7 @@ const Services = () => {
             to <motion.b whileHover={{color:"orange"}}>reality .</motion.b>
           </h1>
           <h3>
-          <motion.button variants={yellowButton}>WHAT WE DO?
+          <motion.button variants={yellowButton} whileHover={{ background: "lightgray", color: "black" }}>WHAT I DO?
             </motion.button>  
           </h3>
         </div>

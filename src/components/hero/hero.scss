@@ -3,13 +3,16 @@
 .hero {
   height: calc(100vh - 100px);
   overflow: hidden;
-  background: linear-gradient(180deg, #0c0c1d, #111132);
+  background: linear-gradient(180deg, #09092c, #141437);
   position: relative;
+
 
   .wrapper {
     max-width: 1366px;
     height: 100%;
     margin: auto;
+
+    
 
     .textContainer {
       width: 50%;
@@ -26,6 +29,10 @@
         align-items: center;
         text-align: center;
       }
+
+      
+          
+   
 
       h2 {
         font-size: 5vh;
@@ -45,19 +52,17 @@
       .buttons {
         button {
           padding: 20px;
-          border: 1px solid white;
+          border: 1px solid rgb(122, 122, 122);
           border-radius: 10px;
-          background-color: transparent;
-          color: white;
+          background : linear-gradient(0deg, #48484897, #d6d6d900) ;
+          color: #ffffff;
           margin-right: 20px;
+          z-index: 3;
           cursor: pointer;
           font-weight: 300;
-         z-index: 1;
-         :hover{
-          background-color: aquamarine;
-          color: black;}
 
         }
+      
     
       }
      
@@ -95,5 +100,6 @@
     color: #ffffff09;
     width: 50%;
     font-weight: bold;
+    z-index: 0;
   }
 }

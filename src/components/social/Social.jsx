@@ -13,13 +13,13 @@ const social = () => {
       <img src="/github.png" alt="https://linktr.ee/vaidikpatil.vp" />
     </a>
     <a href="https://www.instagram.com/mobi__shots/">
-      <img src="public/instagam.png" alt="https://linktr.ee/vaidikpatil.vp" />
+      <img src="/instagam.png" alt="https://linktr.ee/vaidikpatil.vp" />
     </a>
     <a href="https://mobile.twitter.com/VaidikPatil">
       <img src="/twitter.png" alt="https://linktr.ee/vaidikpatil.vp" />
     </a>
     <a href="https://www.linkedin.com/in/vaidik-patil">
-      <img src="public/linkedIn.png" alt="https://linktr.ee/vaidikpatil.vp" />
+      <img src="/linkedIn.png" alt="https://linktr.ee/vaidikpatil.vp" />
     </a>
   </motion.div>
     

@@ -6,20 +6,20 @@ const items = [
   {
     id: 1,
     title: "Stock monitor ",
-    img: "public/120323.jpg",
+    img: "/120323.jpg",
     desc: "Developing a real-time stock monitoring app with React offers technical advantages such as its component-based architecture for modular UI design, virtual DOM reconciliation for efficient rendering, and state management hooks like useState and useEffect for handling dynamic stock data. Integration with financial APIs and visualization libraries like Chart.js further enhances analytical capabilities. React's ecosystem enables rapid development of a responsive, scalable, and feature-rich application tailored for real-time financial data analysis.",
   },
   {
     id: 2,
     title: "Next.Js Commerce",
-    img: "public/alxc06hj.png",
+    img: "/alxc06hj.png",
     desc: "Next.js is the preferred choice for e-commerce apps due to its server-side rendering (SSR), which ensures fast loading times and improved SEO. Its dynamic routing simplifies navigation, while built-in API routes streamline backend integration. Compared to other technologies, Next.js offers comprehensive SSR capabilities, robust routing, and seamless backend communication, making it ideal for creating high-performance and scalable e-commerce applications. It is currently under production ",
   },
  
   {
     id: 4,
     title: "Music App",
-    img: "public/7747750_3730946.jpg",
+    img: "/7747750_3730946.jpg",
     desc: "The Spotify clone replicates the popular music streaming service using React for frontend development. It integrates with the Spotify Web API for accessing music content, implements user authentication with OAuth 2.0, and provides features like audio playback, personalized recommendations, and playlist creation. The app offers a responsive interface, seamless navigation, and robust state management for an authentic Spotify-like experience.",
   },
 ];
